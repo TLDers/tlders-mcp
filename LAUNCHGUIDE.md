@@ -11,7 +11,7 @@ Every answer comes from the live TLDers database: per-registrar prices in USD pe
 Built for developers, founders and agent builders who need domain pricing in a workflow: naming and branding assistants, startup-launch copilots, portfolio and renewal audits, and general-purpose agents that get asked "which registrar should I use?"
 
 ## Setup Requirements
-- `Authorization` (required): `Bearer <your TLDers API key>` (or send the key as `X-API-Key`). Get a free key at https://www.tlders.com/developers — no card needed. Clients that can't set headers (such as claude.ai custom connectors) can use `https://www.tlders.com/api/mcp?key=<your key>` as the server URL, or pass the key as an `api_key` argument on each tool call. Free keys get 100 requests a month; paid plans (from $5/month) get 1,000 requests a day per key and the bulk prices endpoint.
+- `Authorization` (required): `Bearer <your TLDers API key>` (or send the key as `X-API-Key`). Get a free key at https://www.tlders.com/developers — no card needed. Clients that can't set headers (such as claude.ai custom connectors) can use `https://www.tlders.com/api/mcp?key=<your key>` as the server URL, or pass the key as an `api_key` argument on each tool call. The local stdio server in this repo reads the key from the `TLDERS_API_KEY` environment variable. Free keys get 100 requests a month; paid plans (from $5/month) get 1,000 requests a day per key and the bulk prices endpoint.
 
 ## Category
 Developer Tools

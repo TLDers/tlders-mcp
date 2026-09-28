@@ -2,7 +2,7 @@
 
 Live domain prices from 145+ registrars and 1,100+ TLDs, as a remote [Model Context Protocol](https://modelcontextprotocol.io) server. Ask your AI assistant where a domain is cheapest to register, renew or transfer, compare extensions, find promo codes and check availability — with real, daily-updated prices from [TLDers](https://www.tlders.com).
 
-This repository holds the listing files only (`server.json` for the [official MCP Registry](https://registry.modelcontextprotocol.io), `LAUNCHGUIDE.md` for directories). The server itself is hosted at `https://www.tlders.com/api/mcp`.
+Use it two ways: connect to the hosted server at `https://www.tlders.com/api/mcp`, or run this repository's small local (stdio) server, which forwards each tool call to the hosted one with your key.
 
 ## Connect
 
@@ -22,6 +22,24 @@ claude mcp add --transport http tlders https://www.tlders.com/api/mcp \
 ```
 
 Treat a URL with `?key=` like a password. If it leaks, revoke the key from your TLDers account and create a new one.
+
+### Local (stdio) server
+
+For Claude Desktop's config file and other clients that run local servers. Needs Node.js 18+.
+
+```json
+{
+  "mcpServers": {
+    "tlders": {
+      "command": "npx",
+      "args": ["-y", "tlders-mcp"],
+      "env": { "TLDERS_API_KEY": "tld_live_..." }
+    }
+  }
+}
+```
+
+Until the npm package is published, run it from a clone instead: `npm install`, then use `"command": "node", "args": ["/path/to/tlders-mcp/index.js"]`.
 
 ## Tools
 
