@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.tlders/domain-prices",
+  "title": "TLDers Domain Prices",
+  "description": "Compare domain prices across 145+ registrars and 1,100+ TLDs, find promo codes, check availability.",
+  "websiteUrl": "https://www.tlders.com/developers",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.tlders.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your TLDers API key> — get one at https://www.tlders.com/developers",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
