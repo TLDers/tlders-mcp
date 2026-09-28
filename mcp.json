@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "tlders": {
+      "type": "streamable-http",
+      "url": "https://www.tlders.com/api/mcp"
+    }
+  }
+}

@@ -41,6 +41,10 @@ For Claude Desktop's config file and other clients that run local servers. Needs
 
 To run the server from source instead of the published package (useful while changing it), clone this repo, run `npm install`, then use `"command": "node", "args": ["/path/to/tlders-mcp/index.js"]`. It reads the same `TLDERS_API_KEY` variable, and `TLDERS_MCP_URL` overrides the hosted endpoint.
 
+### Plugin install
+
+This repo is also an [Agent Plugins](https://agent-plugins.org) package (`plugin.json` + `mcp.json`) that connects to the hosted server. Once installed, add your key by passing it as the `api_key` argument or switching the server URL to `https://www.tlders.com/api/mcp?key=tld_live_...`.
+
 ## Tools
 
 | Tool | What it does |

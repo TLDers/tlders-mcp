@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tlders",
+  "version": "1.0.2",
+  "description": "Live domain prices from 145+ registrars and 1,100+ TLDs: cheapest registrar to register, renew or transfer, TLD comparisons, price history, promo codes and availability checks.",
+  "author": { "name": "TLDers", "url": "https://www.tlders.com" },
+  "homepage": "https://www.tlders.com/developers",
+  "repository": "https://github.com/TLDers/tlders-mcp",
+  "license": "MIT",
+  "keywords": ["domains", "domain-prices", "tld", "registrars", "whois", "availability"]
+}
