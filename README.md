@@ -32,7 +32,7 @@ For Claude Desktop's config file and other clients that run local servers. Needs
   "mcpServers": {
     "tlders": {
       "command": "npx",
-      "args": ["-y", "tlders-mcp"],
+      "args": ["-y", "@tlders/mcp"],
       "env": { "TLDERS_API_KEY": "tld_live_..." }
     }
   }
