@@ -39,7 +39,7 @@ For Claude Desktop's config file and other clients that run local servers. Needs
 }
 ```
 
-Until the npm package is published, run it from a clone instead: `npm install`, then use `"command": "node", "args": ["/path/to/tlders-mcp/index.js"]`.
+To run the server from source instead of the published package (useful while changing it), clone this repo, run `npm install`, then use `"command": "node", "args": ["/path/to/tlders-mcp/index.js"]`. It reads the same `TLDERS_API_KEY` variable, and `TLDERS_MCP_URL` overrides the hosted endpoint.
 
 ## Tools
 
