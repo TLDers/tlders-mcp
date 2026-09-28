@@ -9,7 +9,7 @@
   "mcpName": "com.tlders/domain-prices",
   "keywords": ["mcp", "mcp-server", "modelcontextprotocol", "domains", "domain-prices", "registrars", "tld"],
   "homepage": "https://www.tlders.com/developers",
-  "repository": { "type": "git", "url": "git+https://github.com/tlderscom/tlders-mcp.git" },
+  "repository": { "type": "git", "url": "git+https://github.com/TLDers/tlders-mcp.git" },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.1",
