@@ -59,6 +59,8 @@ This repo is also an [Agent Plugins](https://agent-plugins.org) package (`plugin
 
 Prices are USD per year. First-year prices are often promotions, so the renewal price is always included.
 
+All tools are read-only. Each one is annotated `readOnlyHint: true`, `destructiveHint: false` and `idempotentHint: true`. Nothing is bought, registered or changed, so clients can run them without asking for confirmation.
+
 ## Example prompts
 
 - "Where is a .com cheapest to register and to renew?"
@@ -74,6 +76,13 @@ Prices are USD per year. First-year prices are often promotions, so the renewal 
 | Monthly ($5) / Yearly | 1,000 requests a day per key, up to 5 keys, plus bulk prices |
 
 Full API docs and the OpenAPI spec: https://www.tlders.com/developers
+
+## Development
+
+```sh
+npm install
+npm test   # node --test: every tool, its annotations and error handling, no network needed
+```
 
 ## Support
 

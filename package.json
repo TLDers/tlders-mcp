@@ -1,10 +1,13 @@
 {
   "name": "@tlders/mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for live domain prices from 145+ registrars and 1,100+ TLDs (TLDers).",
   "type": "module",
   "bin": {
     "tlders-mcp": "index.js"
+  },
+  "scripts": {
+    "test": "node --test"
   },
   "files": [
     "index.js",
