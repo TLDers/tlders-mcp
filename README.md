@@ -1,5 +1,7 @@
 # TLDers Domain Prices — MCP server
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/tlders/tlders-mcp)](https://m8ven.ai/mcp/tlders/tlders-mcp?s=readme) [![test](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml) [![npm](https://img.shields.io/npm/v/@tlders/mcp)](https://www.npmjs.com/package/@tlders/mcp)
+
 Live domain prices from 145+ registrars and 1,100+ TLDs, as a remote [Model Context Protocol](https://modelcontextprotocol.io) server. Ask your AI assistant where a domain is cheapest to register, renew or transfer, compare extensions, find promo codes and check availability — with real, daily-updated prices from [TLDers](https://www.tlders.com).
 
 Use it two ways: connect to the hosted server at `https://www.tlders.com/api/mcp`, or run this repository's small local (stdio) server, which forwards each tool call to the hosted one with your key.
