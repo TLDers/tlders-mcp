@@ -89,3 +89,9 @@ npm test   # node --test: every tool, its annotations and error handling, no net
 ## Support
 
 advertise@tlders.com
+
+## More from TLDers
+
+- [WordPress plugin](https://wordpress.org/plugins/tlders-domain-prices/) (free)
+- [Codester shop](https://www.codester.com/tlders/shop) (PHP script and mobile apps)
+- [All products](https://www.tlders.com/products)
