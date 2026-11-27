@@ -1,6 +1,6 @@
 # TLDers Domain Prices — MCP server
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/tlders/tlders-mcp)](https://m8ven.ai/mcp/tlders/tlders-mcp?s=readme) [![test](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml) [![npm](https://img.shields.io/npm/v/@tlders/mcp)](https://www.npmjs.com/package/@tlders/mcp) [![M8ven Verified](https://m8ven.ai/badge/mcp/tlders-tlders-mcp-zvbpss?variant=verified)](https://m8ven.ai/mcp/tlders-tlders-mcp-zvbpss?s=readme)
+[![test](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/TLDers/tlders-mcp/actions/workflows/test.yml) [![npm](https://img.shields.io/npm/v/@tlders/mcp)](https://www.npmjs.com/package/@tlders/mcp) [![M8ven Verified](https://m8ven.ai/badge/mcp/tlders-tlders-mcp-zvbpss?variant=verified)](https://m8ven.ai/mcp/tlders-tlders-mcp-zvbpss?s=readme)
 
 
 Live domain prices from 145+ registrars and 1,100+ TLDs, as a remote [Model Context Protocol](https://modelcontextprotocol.io) server. Ask your AI assistant where a domain is cheapest to register, renew or transfer, compare extensions, find promo codes and check availability — with real, daily-updated prices from [TLDers](https://www.tlders.com).
